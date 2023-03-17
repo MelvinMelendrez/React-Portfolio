@@ -18,14 +18,15 @@
 }
 
 .app__skills-list {
-  flex: 1;
+  flex: 1; 
   display: flex;
   flex-wrap: wrap;
-  justify-content: flex-start;
-  align-items: flex-start;
-
+  justify-content: space-between; /* alinea los elementos en la dirección principal */
+  align-items: center;
   margin-right: 5rem;
-
+  height: -10px;
+  width: -10px; /* establece un ancho fijo para todos los elementos */
+  padding: 1rem;
   @media screen and (max-width: 900px) {
     margin-right: 0;
     justify-content: center;
